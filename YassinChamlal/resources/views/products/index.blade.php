@@ -38,7 +38,7 @@
 
    
 
-    <table class="table table-bordered">
+    <table class="table table-bordered border-dark">
 
         <tr>
 
