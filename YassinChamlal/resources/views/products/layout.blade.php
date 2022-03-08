@@ -20,7 +20,7 @@
         </h2>
     </x-slot>
 
- <div class="container pt-1 mt-4">
+ <div class="container pt-1 mt-4 w-full">
 
     @yield('content')
 
