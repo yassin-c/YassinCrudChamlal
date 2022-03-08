@@ -4,17 +4,17 @@
 
 @section('content') 
 
-    <div class="row">
+    <div class="row mt-2">
 
         <div class="col-lg-12 margin-tb">
 
-            <div class="pull-left">
+            <div class="pull-left mt-2">
 
                 <h3>Yassin Chamlal Crud</h3>
 
             </div>
 
-            <div class="pull-right">
+            <div class="pull-right mb-2">
 
                 <a class="btn btn-success" href="{{ route('products.create') }}"> Maak nieuw berichte aan</a>
 
