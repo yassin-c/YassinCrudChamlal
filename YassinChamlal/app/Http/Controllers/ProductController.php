@@ -66,6 +66,7 @@ class ProductController extends Controller
     {
         return view('products.show',compact('product'));
     } 
+ 
 
     public function toon(Product $product){ 
          
@@ -118,8 +119,6 @@ class ProductController extends Controller
     public function destroy(Product $product)
     {
         $product->delete();
-
-    
 
         return redirect()->route('products.index')
 
