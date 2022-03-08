@@ -56,11 +56,13 @@
 
         <tr>
 
-            <td>{{ ++$i }}</td>
+            <td>{{ ++$i }}</td> 
 
             <td>{{ $product->titel }}</td>
 
-            <td>{{ $product->content }}</td>
+            <td>{{ $product->content }}</td> 
+
+
 
             <td>
 
@@ -82,7 +84,7 @@
 
       
 
-                    <button type="submit" class="btn btn-danger">Delete</button>
+                    <button type="submit" class="btn bg-red-500 btn-danger ">Delete</button>
 
                 </form>
 
