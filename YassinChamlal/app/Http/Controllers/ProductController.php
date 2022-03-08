@@ -68,11 +68,7 @@ class ProductController extends Controller
     } 
  
 
-    public function toon(Product $product){ 
-         
-      return view('products.toon',compact('products'));
-    }
-
+ 
     /**
      * Show the form for editing the specified resource.
      *
